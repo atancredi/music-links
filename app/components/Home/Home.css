@@ -1,0 +1,19 @@
+.head-img{
+    height: 37vh;
+    width: 100vw;
+}
+
+.head-img > img {
+    height: 100%;
+    width: 100%;
+}
+
+.head-title{
+    line-height: 3rem;
+    font-size: 3rem;
+    position: absolute;
+    top: 28vh;
+    font-weight: 600;
+    padding-left: 10px;
+    color: ghostwhite;
+}

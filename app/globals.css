@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	box-sizing: border-box
+}
+
+*, *::before, *::after {
+	box-sizing: inherit
+}
+
+body {
+	margin: 0;
+	background-color: #0C0B09;
+}
+
+.links-container {
+	align-items: center;
+}
+
+.avatar-img {
+	border-radius: 50%;
+	width: 124px;
+}
