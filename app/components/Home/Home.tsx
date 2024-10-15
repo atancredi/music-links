@@ -35,10 +35,9 @@ export default function Home() {
 		<div className={"w-screen h-screen"} >
 			<div>
 				<div className="head-img">
-					<Image src="/img/cover.jpg" alt="coverImage" width={0} height={0} sizes="100vw">
-					</Image>
+					<Image src="/img/cover.jpg" alt="coverImage" width={0} height={0} sizes="100vw"></Image>
 				</div>
-				<div className="head-title">Grande Fumo</div>
+				<div className="head-title">{name}</div>
 				<div className="mb-6"></div>
 				<div className="flex flex-col links-container">
 					{links.map((link, i) => (
