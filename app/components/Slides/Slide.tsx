@@ -39,9 +39,9 @@ export default function Slide({ children = {} as ReactNode, hasHeader = false, h
 
     const container = useRef<HTMLDivElement>(null);
     const [slideIndex, setSlideIndex] = useState(getSlideIndex())
-    useEffect(() => {
-        console.log("slide nmber", slideIndex, { top: (logoPosition.top + 100 * slideIndex) + "vh" })
-    }, [slideIndex])
+    // useEffect(() => {
+    //     console.log("slide nmber", slideIndex, { top: (logoPosition.top + 100 * slideIndex) + "vh" })
+    // }, [slideIndex, logoPosition.top])
 
     const onBgLoad = () => {
         if (setLoading)
