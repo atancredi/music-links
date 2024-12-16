@@ -1,8 +1,8 @@
-import "./globals.css";
-import Home from "./components/Home/Home";
+
+import Slides from "./components/Slides/Slides";
 
 export default function RootPage() {
     return (
-        <Home></Home>
+        <Slides></Slides>
     );
 }

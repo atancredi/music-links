@@ -1,0 +1,14 @@
+.sliding-text > div {
+    animation: move 6s infinite linear;
+}
+
+@keyframes move {
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+section > div > h1 {
+    margin: 0;
+    padding-left: 0px;
+}
